@@ -505,7 +505,12 @@
 @media only screen and (max-width: 992px) {
   /* HEADER */
   .header {
+    overflow-x: hidden;
     min-width: 400px;
+  }
+
+  body {
+    overflow-x: hidden;
   }
   
   .header-nav {
@@ -573,10 +578,6 @@
 
   .img-1 {
   display:none;
-    /* width: 5%;
-    position: absolute;
-    top: 55%;
-    left: 10%; */
   }
 
   .rect-img {
